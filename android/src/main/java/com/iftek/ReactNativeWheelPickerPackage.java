@@ -1,4 +1,4 @@
-package com.zyu;
+package com.iftek;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
@@ -11,7 +11,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author <a href="mailto:lesliesam@hotmail.com"> Sam Yu </a>
+ * @author <a href="mailto:yuan9090@gmail.com"> Brian Lin </a>
  */
 public class ReactNativeWheelPickerPackage implements ReactPackage {
     @Override

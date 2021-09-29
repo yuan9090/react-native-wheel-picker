@@ -1,6 +1,6 @@
-# react-native-wheel-picker
-[![npm version](http://img.shields.io/npm/v/react-native-wheel-picker.svg?style=flat-square)](https://npmjs.org/package/react-native-wheel-picker "View this project on npm")
-[![npm version](http://img.shields.io/npm/dm/react-native-wheel-picker.svg?style=flat-square)](https://npmjs.org/package/react-native-wheel-picker "View this project on npm")
+# @iftek/react-native-wheel-picker
+[![npm version](http://img.shields.io/npm/v/@iftek/react-native-wheel-picker.svg?style=flat-square)](https://npmjs.org/package/@iftek/react-native-wheel-picker "View this project on npm")
+[![npm version](http://img.shields.io/npm/dm/@iftek/react-native-wheel-picker.svg?style=flat-square)](https://npmjs.org/package/@iftek/react-native-wheel-picker "View this project on npm")
 
 ## Introduction
 Cross platform Picker component based on React-native.
@@ -17,24 +17,20 @@ Run command
 
 For apps using RN 0.40 or higher, please run
 ```
-npm i react-native-wheel-picker --save
-```
-For apps using RN 0.39 or less, please run
-```
-npm install --save --save-exact react-native-wheel-picker@1.1.2
+npm i @iftek/react-native-wheel-picker --save
 ```
 Add in settings.gradle
 ```
-include ':react-native-wheel-picker'
-project(':react-native-wheel-picker').projectDir = new File(settingsDir, '../node_modules/react-native-wheel-picker/android')
+include ':@iftek/react-native-wheel-picker'
+project(':@iftek/react-native-wheel-picker').projectDir = new File(settingsDir, '../node_modules/@iftek/react-native-wheel-picker/android')
 ```
 Add in app/build.gradle
 ```
-compile project(':react-native-wheel-picker')
+compile project(':@iftek/react-native-wheel-picker')
 ```
 Modify MainApplication
 ```
-    import com.zyu.ReactNativeWheelPickerPackage;
+    import com.iftek.ReactNativeWheelPickerPackage;
     ......
 
     protected List<ReactPackage> getPackages() {
@@ -55,7 +51,7 @@ import {
 } from 'react-native';
 
 
-import Picker from 'react-native-wheel-picker'
+import Picker from '@iftek/react-native-wheel-picker'
 var PickerItem = Picker.Item;
 
 export default class App extends Component<{}> {
