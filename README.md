@@ -1,6 +1,14 @@
-# @iftek/react-native-wheel-picker
+
 [![npm version](http://img.shields.io/npm/v/@iftek/react-native-wheel-picker.svg?style=flat-square)](https://npmjs.org/package/@iftek/react-native-wheel-picker "View this project on npm")
 [![npm version](http://img.shields.io/npm/dm/@iftek/react-native-wheel-picker.svg?style=flat-square)](https://npmjs.org/package/@iftek/react-native-wheel-picker "View this project on npm")
+
+## @iftek/react-native-wheel-picker
+
+- Fork form [react-native-wheel-picker](https://github.com/lesliesam/react-native-wheel-picker)
+- Value accept String [ref commit](https://github.com/HiZhenyu/react-native-wheel-picker/commit/b61f7d01f8a7f19156b39384ae077bd795168263#diff-8e95451815a1043a66a4af5be7e50bfc)
+- Merge [#8 selectedColor](https://github.com/lesliesam/react-native-wheel-picker/pull/8)
+- Android: cn.aigestudio.wheelpicker version to 1.1.2
+- IOS: PickerIOS use @react-native-picker/picker 2.1.0
 
 ## Introduction
 Cross platform Picker component based on React-native.
