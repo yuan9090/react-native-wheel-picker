@@ -34,10 +34,8 @@ class WheelCurvedPicker extends React.Component {
     selectedColor: 'white'
   }
 
-  componentDidUpdate (prevProps, props) {
-		if (prevProps !== this.props){
-			this.setState(this._stateFromProps(props))
-		}
+  UNSAFE_componentWillReceiveProps (prevProps, props) {
+		this.setState(this._stateFromProps(props))
   }
 
   _stateFromProps (props) {
